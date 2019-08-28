@@ -9,6 +9,43 @@ public class Student {
 	
 	
 	
+	
+	public int getRno() {
+		return rno;
+	}
+
+
+
+	public void setRno(int rno) {
+		this.rno = rno;
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+	public int getMarks() {
+		return marks;
+	}
+
+
+
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+
+
+
 	public Student() {
 		super();
 	}
@@ -66,10 +103,10 @@ public class Student {
 		System.out.println("_________________________________________________________");
 	}
 	
-	public void setData(int a, String b, int c){
-		rno=a; 
-		name=b;
-		marks=c;
+	public void setData(int rno, String name, int marks){
+		this.rno=rno; 
+		this.name=name;
+		this.marks=marks;
 	}
 	
 	public static void main(String args[]){
